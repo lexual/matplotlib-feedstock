@@ -16,6 +16,20 @@ tests = False
 toolkit_tests = False
 sample_data = False
 
+[gui_support]
+agg = True
+cairo = False
+gtk = False
+gtk3agg = False
+gtk3cairo = False
+gtkagg = False
+macosx = False
+pyside = False
+qt4agg = False
+tkagg = False
+windowing = False
+wxagg = False
+
 EOF
 
 
